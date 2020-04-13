@@ -61,7 +61,7 @@ const getClassesMapping = () => {
   }
 
   // renderscript must be added to the canonical androidx-class-mapping.csv - it is not upstream
-  result.push(['android.support.v8.renderscript', 'android.renderscript']);
+  // result.push(['android.support.v8.renderscript', 'android.renderscript']);
 
   return result;
 };
